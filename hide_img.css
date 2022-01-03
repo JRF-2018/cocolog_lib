@@ -1,0 +1,31 @@
+/*
+ * hide_img.css
+ * 
+ * CSS for hide_img.js .
+ *
+ * Time-stamp: <2014-01-30T23:30:45Z>
+ */
+
+span.hide-img-container {
+   display: inline-block;
+   float: none; /* needed on Safari. */
+   background: white;
+   border: solid 1px yellow;
+   vertical-align: top; /* some may change. */
+   position: relative;
+}
+
+span.hide-img-container p.hide-img-message {
+   text-align: center;
+   text-indent: 0;
+   margin: auto;
+   overflow: hidden;
+   position: absolute;
+   top: 50%;
+   width: 100%;
+   margin-top: -1.5em;
+}
+
+/* IMG condition on load. This is applied, if JavaScript is off. */
+img.sexual { opacity: 0.0; /* not work on IE. */ }
+img.violence { opacity: 0.0; /* not work on IE. */ }
