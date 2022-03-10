@@ -3,7 +3,7 @@
 //
 // A widget for JRF's self appeal.
 //
-var VERSION_jrf_pr_widget_2 = "0.02" // Time-stamp: <2020-05-13T09:19:12Z>
+var VERSION_jrf_pr_widget_2 = "0.03" // Time-stamp: <2022-03-10T15:40:09Z>
 
 //
 // License:
@@ -63,6 +63,12 @@ var JRF_PR_ENTRIES_2 = [
     "url" : "https://kakuyomu.jp/works/1177354054881174970",
     "title" : "小説<br/>『<span class=\"font-larger\">神々のための黙示録</span>』。<br/>無料で<span class=\"font-larger\">公開中！</span>",
     "excerpt" : "JRF が書いた宗教的中篇小説。「最後の審判」がやってきた後の世界を神からつかわされた『旅人』が巡る。『旅人』が出会うのは、自分が死んだことに気付いている者、いない者、様々である。「最後の審判」とはそのようなものではないと思う方も、この「神学」に触れて欲しい。",
+    "freq" : 1
+  },
+  {
+    "url" : "https://www.amazon.co.jp/dp/B09TPTYT6Q/",
+    "title" : "技術系電子本<br/><span class=\"font-larger\">『「シミュレーション仏教」の試み』</span>(JRF 著)。<br/>Amazon Kindle で<span class=\"font-larger\">販売中！</span>",
+    "excerpt" : "仏教とは、本目的三条件「来世がないほうがよい」「生きなければならない」「自己の探求がよい」を命令的前提として行う社会に対する最適化プログラムなのではないか？…Python による仏教社会シミュレーションの解説。",
     "freq" : 1
   },
   null
